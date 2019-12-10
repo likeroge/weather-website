@@ -79,7 +79,7 @@ app.get("/products", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    helpText: "It is helping text",
+    helpText: "You can use this website to request weather data. Please enter location to Input on the Weather Page",
     name: "Egor Puchkov",
     title: "Help"
   });
